@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <title>Entrada fintech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Simulação de Investimento</h1>
+  </header>
+    <main>
+        <form action="/processar.php" metdod="get">
+          <table>
+            <tbody>
+              <tr>
+                <td>Nome</td>
+                <td><input type="text" name="cliente" id="cliente"></td>
+              </tr>
+              <tr>
+                <td>Valor inicial [ R$ ]</td>
+                <td><input type="number" name="valor_inicial" id="valor_inicial" value="1000"></td>
+              </tr>
+              <tr>
+                <td>Meses</td>
+                <td><input type="number" name="meses" id="meses" value="12"></td>
+              </tr>
+              <tr>
+                <td>Rendimento [ % ]</td>
+                <td><input type="number" name="taxa" id="taxa" value="1.5"></td>
+              </tr>
+              <tr>
+                <td>Valor mensal [ R$ ]</td>
+                <td><input type="number" name="valor_mensal" id="valor_mensal" value="250"></td>
+              </tr>              
+                                
+            </tbody>
+          </table>
+          <div style="align-items: center; text-align: center; padding: 20px;">
+            <button type="submit" >Calcular</button>
+          </div>
+        </form>
+        <a href="index.html"><button>Menu inicial</button></a>
+
+    </main>
+    <footer>
+      Katerine Nayara e Kheuhy Barral - &copy; 2023
+    </footer>
+
+</body>
+
+</html>
